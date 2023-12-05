@@ -4,3 +4,28 @@
     padding: 0;
 
 }
+body {
+    background-color: #B22222;
+}
+header {
+    background-color: #CD5C5C;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+img{
+    height: 200px;
+    margin-right: 400px;
+}
+
+h3{
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+}
