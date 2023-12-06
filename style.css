@@ -4,28 +4,38 @@
     padding: 0;
 
 }
-body {
-    background-color: #B22222;
+body {  
+    height: 100vh;
+    background: linear-gradient(to top right,
+ rgb(50, 3, 3) 0%,
+ rgb(50, 3, 3) 60%,
+ rgb(189, 75, 4) 60%,
+ rgb(189, 75, 4) 100%)
 }
+
 header {
-    background-color: #CD5C5C;
-    padding: 20px;
+    padding: 50px 200px 0px 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
     gap: 50px;
 }
-img{
-    height: 200px;
-    margin-right: 400px;
+
+.header-buttons {
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
 }
 
-h3{
-    justify-content: center;
+.apresetation { 
+    color: white;
+    justify-content: left;
     align-items: center;
 }
 
-h1{
-    justify-content: center;
-    align-items: center;
+
+.link-linkedin {
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(189, 75, 4)
 }
