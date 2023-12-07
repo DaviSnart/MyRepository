@@ -4,38 +4,72 @@
     padding: 0;
 
 }
-body {  
+
+body {
     height: 100vh;
     background: linear-gradient(to top right,
- rgb(50, 3, 3) 0%,
- rgb(50, 3, 3) 60%,
- rgb(189, 75, 4) 60%,
- rgb(189, 75, 4) 100%)
+            rgb(50, 3, 3) 0%,
+            rgb(50, 3, 3) 60%,
+            rgb(189, 75, 4) 60%,
+            rgb(189, 75, 4) 100%)
 }
 
 header {
-    padding: 50px 200px 0px 0px;
+    padding: 40px 200px 0px 0vh;
     display: flex;
     justify-content: right;
     gap: 50px;
 }
+    h1{
+        font-size: 90px;
+    }
+
+    h3{
+        font-size: 44px;
+    }
+
+.my-introduction {
+    margin: 15vh 20vh;
+
+}
 
 .header-buttons {
     border: none;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 35px;
+    padding: 20px 50px;
+    cursor: pointer;
 }
 
-.apresetation { 
+.apresetation {
     color: white;
-    justify-content: left;
-    align-items: center;
 }
 
 
 .link-linkedin {
+    font-size: 30px;
     color: white;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: rgb(189, 75, 4)
+    border: none;
+    border-radius: 30px;
+    padding: 16px 120px;
+    background-color: rgb(189, 75, 4);
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
 }
+
+.link-linkedin:hover {
+    opacity: 0.8;
+}
+
+.link-linkedin:active {
+    opacity: 0.5;
+}
+
+.header-buttons:hover {
+    opacity: 0.8;
+}
+
+.header-buttons:active {
+    opacity: 0.5;
+}
+
