@@ -15,10 +15,11 @@ body {
 }
 
 header {
-    padding: 40px 200px 0px 0vh;
+    padding: 40px 150px 0px 0px;
     display: flex;
     justify-content: right;
-    gap: 50px;
+    gap: 30px;
+
 }
     h1{
         font-size: 90px;
@@ -38,6 +39,7 @@ header {
     border-radius: 35px;
     padding: 20px 50px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .apresetation {
@@ -46,7 +48,7 @@ header {
 
 
 .link-linkedin {
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     border: none;
     border-radius: 30px;
