@@ -2,6 +2,7 @@
     font-family: 'Fira Sans Condensed', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -21,16 +22,18 @@ header {
     gap: 30px;
 
 }
-    h1{
-        font-size: 90px;
-    }
 
-    h3{
-        font-size: 44px;
-    }
+h1 {
+    font-size: 90px;
+}
+
+h3 {
+    font-size: 44px;
+}
 
 .my-introduction {
     margin: 15vh 20vh;
+    margin-bottom: 210px;
 
 }
 
@@ -75,3 +78,21 @@ header {
     opacity: 0.5;
 }
 
+.about-me {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.profile-professional {
+    text-align: center;
+    color: white;
+}
+.davi-img {
+    height: 200px;
+    width: 150px;
+    margin-left: 125px;
+    display: inline-block;
+}
+.about-section {
+    display: inline-block;
+}
