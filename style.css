@@ -84,11 +84,13 @@ h3 {
     color: white;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
 }
+
 .profile-professional {
     text-align: center;
     color: white;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
 }
+
 .davi-img {
     height: 450px;
     width: 350px;
@@ -97,10 +99,11 @@ h3 {
     display: inline-block;
     border-radius: 50px;
 }
+
 .about-section {
     display: inline-block;
     color: white;
-    font-size:25px;
+    font-size: 25px;
     margin-left: 100px;
     padding-bottom: 65px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
@@ -108,12 +111,39 @@ h3 {
 }
 
 .my-descrition {
-  font-size: 50px;  }
-
-  .my-habilit {
-    text-align: center;
-    margin-top: 30px;
-    color: white;
     font-size: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.my-habilit {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 55px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
-  }
+}
+.habilits-and-formations {
+    color: rgb(202, 59, 59);
+    margin-bottom: 20px;
+}
+
+.first-habilits {
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    border: 3px solid rgb(178, 16, 16);
+    padding: 8px 8px 8px 8px;
+    width: 430px;
+    background-color: rgb(38, 6, 6);
+    
+
+}
+
+.DevClub {
+    color: rgb(123, 15, 224);
+
+}
