@@ -119,31 +119,81 @@ li {
 }
 
 .my-habilit {
+    margin-bottom: 50px;
     text-align: center;
     margin-top: 60px;
     color: white;
     font-size: 55px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
 }
+
 .habilits-and-formations {
     color: rgb(202, 59, 59);
     margin-bottom: 20px;
 }
 
 .first-habilits {
-    color: aliceblue;
-    margin-top: 50px;
+    color: white;
+    margin-top: 45px;
     margin-left: 50px;
+    margin-bottom: 107px;
     justify-content: center;
     border: 3px solid rgb(178, 16, 16);
-    padding: 8px 8px 8px 8px;
-    width: 430px;
+    padding: 20px 8px 8px 8px;
+    width: 435px;
+    height: 400px;
     background-color: rgb(38, 6, 6);
-    
+    display: inline-block;
 
 }
 
 .DevClub {
     color: rgb(123, 15, 224);
 
+}
+
+.formations {
+    margin-top: 45px;
+    color: white;
+    border: 3px solid rgb(178, 16, 16);
+    padding: 8px 8px 8px 8px;
+    margin-left: 50px;
+    height: 400px;
+    width: 435px;
+    background-color: rgb(38, 6, 6);
+    display: inline-block;
+    margin-bottom: 107px;
+}
+
+.UniFavip {
+
+    color: rgb(189, 75, 4);
+}
+.experience {
+    color: white;
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-bottom: 107px;
+    padding: 20px 8px 8px 8px;
+    height: 400px;
+    width: 435px;
+    background-color: rgb(38, 6, 6);
+    justify-content: center;
+    border: 3px solid rgb(178, 16, 16);
+    display: inline-block;
+
+}
+
+.my-experience {
+    color: rgb(202, 59, 59);
+    margin-bottom: 20px;
+}
+
+.my-tecnologys {
+    width: 50px;
+    height: 50px;
+}
+.my-tecnologys-css {
+    width: 37px;
+    height: 49px;
 }
