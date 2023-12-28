@@ -169,6 +169,7 @@ li {
 
     color: rgb(189, 75, 4);
 }
+
 .experience {
     color: white;
     margin-top: 45px;
@@ -193,7 +194,20 @@ li {
     width: 50px;
     height: 50px;
 }
+
 .my-tecnologys-css {
     width: 37px;
     height: 49px;
+}
+
+.html-logo {
+    color: rgb(201, 17, 11) ;
+}
+
+.css-logo {
+    color: rgb(36, 36, 241);
+}
+
+.js-logo {
+    color: rgb(255, 223, 44);
 }
