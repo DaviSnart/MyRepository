@@ -132,7 +132,7 @@ li {
     margin-bottom: 20px;
 }
 
-.my-formations{
+.my-formations {
     color: rgb(202, 59, 59);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -207,7 +207,7 @@ li {
 }
 
 .html-logo {
-    color: rgb(201, 17, 11) ;
+    color: rgb(201, 17, 11);
 }
 
 .css-logo {
@@ -216,4 +216,82 @@ li {
 
 .js-logo {
     color: rgb(255, 223, 44);
+}
+
+.projets {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
+}
+
+.my-projets {
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
+}
+
+.conversor-de-moedas {
+    height: 200px;
+    width: 400px;
+    cursor: pointer;
+
+}
+
+.hamburgueria-simples {
+    height: 200px;
+    width: 400px;
+    cursor: pointer;
+
+}
+
+.jokenpo {
+    height: 200px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.my-img-projets {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.text-projets {
+    font-size: 20px;
+    color: white;
+}
+
+.instagram {
+    padding-right:10px ;
+    padding-left: 10px;
+}
+
+.my-footer {
+    width: 100%;
+    padding: 30px 30px 80px 30px;
+    background-color: rgb(87, 7, 7);
+    /* border: 3px solid rgb(251, 255, 0); */
+}
+
+.my-contact {
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
+}
+
+.div-footer {
+    text-align: center;
+
+}
+
+.linkedin {
+    margin-right: 10px;
 }
