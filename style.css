@@ -267,8 +267,9 @@ li {
 .jokenpo {
     height: 200px;
     width: 400px;
-    cursor: pointer;
+    cursor: pointer
 }
+
 
 .my-img-projets {
     margin-top: 70px;
